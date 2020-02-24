@@ -1,8 +1,16 @@
 const express = require('express');
+const connectDB = require('./config/db');
 
 const app = express();
 
-app.get('/',(req,res)=> res.send('Hello'));
+
+//connect Database
+connectDB();
+
+//init middleware
+app.use(express.json({extended:false}));
+
+app.get('/',(req,res)=> res.send('Welcome to Contact Keeper API'));
 
 
 //define our rotes
