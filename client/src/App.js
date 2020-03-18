@@ -5,9 +5,10 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import ContactState from './context/contact/ContactState';
 import AuthState from './context/auth/AuthState';
+import PrivateRoute from './components/routing/PrivateRoute';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
-import PrivateRoute from './components/routing/PrivateRoute';
+
 import AlertState from './context/alert/AlertState';
 import setAuthToken from './utils/setAuthToken';
 import Alerts from './components/layout/Alerts';
