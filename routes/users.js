@@ -66,6 +66,10 @@ async(req,res)=>{
 });
 
 // changes made
+<<<<<<< HEAD
 //a
+=======
+//aditya
+>>>>>>> 8bfc18b64cedc47cd4107aaefea460433670d640
 
 module.exports=router;
